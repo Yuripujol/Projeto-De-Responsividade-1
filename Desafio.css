@@ -1,0 +1,187 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+
+    font-size: 62.5%;
+}
+
+
+
+.wrapper {
+
+    width: 100vw;
+    height: 100vh;
+}
+
+
+header {
+
+    margin-left: 4.2rem;
+    margin-top: 3.2rem;
+
+}
+
+.cabeçalho {
+
+    margin-right: 3.2rem;
+    font-weight: 400;
+    font-size: 1.4rem;
+    Line-height: 2.1rem;
+    letter-spacing: 0.088rem;
+    color: rgba(23, 35, 61, 1);
+    cursor: pointer;
+}
+
+button {
+    font-weight: 500;
+    font-size: 1.6rem;
+    Line-height: 2.4rem;
+    letter-spacing: 0.1rem;
+    border: 0.1rem solid rgba(76, 181, 56, 1);
+    color: rgba(255, 255, 255, 1);
+    background: rgba(111, 191, 68, 1);
+    Width: 12.4rem;
+    Height: 5.1rem;
+    border-radius: 1.0rem;
+    cursor: pointer;
+}
+
+.girl {
+    display: inline-block;
+    margin-top: 16.3rem;
+    margin-left: 12.1rem;
+
+
+}
+
+section {
+
+    display: inline-block;
+    margin-left: 8.5rem;
+
+
+}
+
+h1 {
+    width: 58.2rem;
+    font-weight: 700;
+    font-size: 6.2rem;
+    Line-height: 8.2rem;
+    letter-spacing: 0.06rem;
+    color: rgba(22, 26, 73, 1);
+}
+
+p {
+    margin-top: 4.7rem;
+    margin-bottom: 3.5rem;
+    font-weight: 400;
+    font-size: 1.8rem;
+    Line-height: 3.3rem;
+    letter-spacing: 0.05rem;
+    width: 49.3rem;
+    color: rgba(75, 80, 90, 1);
+}
+
+.saiba-mais {
+
+
+    font-weight: 500;
+    font-size: 1.8rem;
+    Line-height: 2.7rem;
+    letter-spacing: 0.01rem;
+    color: rgba(111, 191, 68, 1);
+    cursor: pointer;
+}
+
+@media(max-width:1388px) {
+
+
+    .wrapper {
+
+        width: 100vw;
+        height: 100vh;
+
+    }
+
+
+    main {
+
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    .cabeçalho {
+        display: none;
+    }
+
+
+    .girl {
+
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+        width:77%;
+        position: relative;
+        bottom: 1.6rem;
+    }
+
+    header {
+        display: flex;
+        justify-content: end;
+        margin-left: 0;
+        margin-top: 0;
+        margin-right: 4.5rem;
+        margin-top: 1.7rem;
+
+    }
+
+    button {
+
+        font-size: 1.2rem;
+        Line-height: 1.8rem;
+        letter-spacing: 0.1rem;
+        Width: 9.1rem;
+        Height: 3.1rem;
+        margin-bottom: 7.6rem;
+        margin-top: 1.7rem;
+
+    }
+
+    section {
+
+        display: block;
+        margin-left: 0;
+    }
+
+    h1 {
+
+        width: auto;
+        text-align: center;
+        font-size: 3.0rem;
+        line-height: 3.7rem;
+        margin-left: 5.7rem;
+        margin-right: 5.7rem;
+    }
+
+
+    p {
+        width: auto;
+        text-align: center;
+        margin-left: 4.3rem;
+        margin-right: 4.3rem;
+
+    }
+
+    .saiba-mais {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5.9rem;
+    }
+
+}
