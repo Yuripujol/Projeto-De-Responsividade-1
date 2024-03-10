@@ -19,3 +19,9 @@
 <li>MEDIA QUERY NO CSS</li>
 
 </ul>
+<br>
+<h2>Acesse o site no link a seguir:</h2>
+<br>
+<a href="https://yuripujol.github.io/Projeto-De-Responsividade-1/">Projeto De Responsividade 1</a>
+
+
